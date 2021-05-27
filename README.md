@@ -7,8 +7,9 @@ The integration allows you to enable troubleshooting custom events in order to i
 Custom GA integration featuring: 
  -   200 selectable custom dimensions 
  -   Option to provide custom tracker name
- -   Option to specifi GA tracking ID
- -   Tracking of the time difference between when Optimizely & GA load
+ -   Option to specify GA tracking ID
+ -   Option to specify GA variable name
+ -   Measuring the time difference between Optimizely & GA tracking events
  -   Customizable polling period
  -   Debug events & debug logs
 
