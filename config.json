@@ -1,0 +1,900 @@
+{
+  "plugin_type": "analytics_integration",
+  "name": "The ultimate GA custom integration",
+  "form_schema": [
+    {
+      "default_value": "dimension1",
+      "field_type": "dropdown",
+      "name": "customDimension",
+      "label": "Custom Dimension",
+      "options": {
+        "choices": [
+          {
+            "value": "dimension1",
+            "label": "Dimension 1"
+          },
+          {
+            "value": "dimension2",
+            "label": "Dimension 2"
+          },
+          {
+            "value": "dimension3",
+            "label": "Dimension 3"
+          },
+          {
+            "value": "dimension4",
+            "label": "Dimension 4"
+          },
+          {
+            "value": "dimension5",
+            "label": "Dimension 5"
+          },
+          {
+            "value": "dimension6",
+            "label": "Dimension 6"
+          },
+          {
+            "value": "dimension7",
+            "label": "Dimension 7"
+          },
+          {
+            "value": "dimension8",
+            "label": "Dimension 8"
+          },
+          {
+            "value": "dimension9",
+            "label": "Dimension 9"
+          },
+          {
+            "value": "dimension10",
+            "label": "Dimension 10"
+          },
+          {
+            "value": "dimension11",
+            "label": "Dimension 11"
+          },
+          {
+            "value": "dimension12",
+            "label": "Dimension 12"
+          },
+          {
+            "value": "dimension13",
+            "label": "Dimension 13"
+          },
+          {
+            "value": "dimension14",
+            "label": "Dimension 14"
+          },
+          {
+            "value": "dimension15",
+            "label": "Dimension 15"
+          },
+          {
+            "value": "dimension16",
+            "label": "Dimension 16"
+          },
+          {
+            "value": "dimension17",
+            "label": "Dimension 17"
+          },
+          {
+            "value": "dimension18",
+            "label": "Dimension 18"
+          },
+          {
+            "value": "dimension19",
+            "label": "Dimension 19"
+          },
+          {
+            "value": "dimension20",
+            "label": "Dimension 20"
+          },
+          {
+            "value": "dimension21",
+            "label": "Dimension 21"
+          },
+          {
+            "value": "dimension22",
+            "label": "Dimension 22"
+          },
+          {
+            "value": "dimension23",
+            "label": "Dimension 23"
+          },
+          {
+            "value": "dimension24",
+            "label": "Dimension 24"
+          },
+          {
+            "value": "dimension25",
+            "label": "Dimension 25"
+          },
+          {
+            "value": "dimension26",
+            "label": "Dimension 26"
+          },
+          {
+            "value": "dimension27",
+            "label": "Dimension 27"
+          },
+          {
+            "value": "dimension28",
+            "label": "Dimension 28"
+          },
+          {
+            "value": "dimension29",
+            "label": "Dimension 29"
+          },
+          {
+            "value": "dimension30",
+            "label": "Dimension 30"
+          },
+          {
+            "value": "dimension31",
+            "label": "Dimension 31"
+          },
+          {
+            "value": "dimension32",
+            "label": "Dimension 32"
+          },
+          {
+            "value": "dimension33",
+            "label": "Dimension 33"
+          },
+          {
+            "value": "dimension34",
+            "label": "Dimension 34"
+          },
+          {
+            "value": "dimension35",
+            "label": "Dimension 35"
+          },
+          {
+            "value": "dimension36",
+            "label": "Dimension 36"
+          },
+          {
+            "value": "dimension37",
+            "label": "Dimension 37"
+          },
+          {
+            "value": "dimension38",
+            "label": "Dimension 38"
+          },
+          {
+            "value": "dimension39",
+            "label": "Dimension 39"
+          },
+          {
+            "value": "dimension40",
+            "label": "Dimension 40"
+          },
+          {
+            "value": "dimension41",
+            "label": "Dimension 41"
+          },
+          {
+            "value": "dimension42",
+            "label": "Dimension 42"
+          },
+          {
+            "value": "dimension43",
+            "label": "Dimension 43"
+          },
+          {
+            "value": "dimension44",
+            "label": "Dimension 44"
+          },
+          {
+            "value": "dimension45",
+            "label": "Dimension 45"
+          },
+          {
+            "value": "dimension46",
+            "label": "Dimension 46"
+          },
+          {
+            "value": "dimension47",
+            "label": "Dimension 47"
+          },
+          {
+            "value": "dimension48",
+            "label": "Dimension 48"
+          },
+          {
+            "value": "dimension49",
+            "label": "Dimension 49"
+          },
+          {
+            "value": "dimension50",
+            "label": "Dimension 50"
+          },
+          {
+            "value": "dimension51",
+            "label": "Dimension 51"
+          },
+          {
+            "value": "dimension52",
+            "label": "Dimension 52"
+          },
+          {
+            "value": "dimension53",
+            "label": "Dimension 53"
+          },
+          {
+            "value": "dimension54",
+            "label": "Dimension 54"
+          },
+          {
+            "value": "dimension55",
+            "label": "Dimension 55"
+          },
+          {
+            "value": "dimension56",
+            "label": "Dimension 56"
+          },
+          {
+            "value": "dimension57",
+            "label": "Dimension 57"
+          },
+          {
+            "value": "dimension58",
+            "label": "Dimension 58"
+          },
+          {
+            "value": "dimension59",
+            "label": "Dimension 59"
+          },
+          {
+            "value": "dimension60",
+            "label": "Dimension 60"
+          },
+          {
+            "value": "dimension61",
+            "label": "Dimension 61"
+          },
+          {
+            "value": "dimension62",
+            "label": "Dimension 62"
+          },
+          {
+            "value": "dimension63",
+            "label": "Dimension 63"
+          },
+          {
+            "value": "dimension64",
+            "label": "Dimension 64"
+          },
+          {
+            "value": "dimension65",
+            "label": "Dimension 65"
+          },
+          {
+            "value": "dimension66",
+            "label": "Dimension 66"
+          },
+          {
+            "value": "dimension67",
+            "label": "Dimension 67"
+          },
+          {
+            "value": "dimension68",
+            "label": "Dimension 68"
+          },
+          {
+            "value": "dimension69",
+            "label": "Dimension 69"
+          },
+          {
+            "value": "dimension70",
+            "label": "Dimension 70"
+          },
+          {
+            "value": "dimension71",
+            "label": "Dimension 71"
+          },
+          {
+            "value": "dimension72",
+            "label": "Dimension 72"
+          },
+          {
+            "value": "dimension73",
+            "label": "Dimension 73"
+          },
+          {
+            "value": "dimension74",
+            "label": "Dimension 74"
+          },
+          {
+            "value": "dimension75",
+            "label": "Dimension 75"
+          },
+          {
+            "value": "dimension76",
+            "label": "Dimension 76"
+          },
+          {
+            "value": "dimension77",
+            "label": "Dimension 77"
+          },
+          {
+            "value": "dimension78",
+            "label": "Dimension 78"
+          },
+          {
+            "value": "dimension79",
+            "label": "Dimension 79"
+          },
+          {
+            "value": "dimension80",
+            "label": "Dimension 80"
+          },
+          {
+            "value": "dimension81",
+            "label": "Dimension 81"
+          },
+          {
+            "value": "dimension82",
+            "label": "Dimension 82"
+          },
+          {
+            "value": "dimension83",
+            "label": "Dimension 83"
+          },
+          {
+            "value": "dimension84",
+            "label": "Dimension 84"
+          },
+          {
+            "value": "dimension85",
+            "label": "Dimension 85"
+          },
+          {
+            "value": "dimension86",
+            "label": "Dimension 86"
+          },
+          {
+            "value": "dimension87",
+            "label": "Dimension 87"
+          },
+          {
+            "value": "dimension88",
+            "label": "Dimension 88"
+          },
+          {
+            "value": "dimension89",
+            "label": "Dimension 89"
+          },
+          {
+            "value": "dimension90",
+            "label": "Dimension 90"
+          },
+          {
+            "value": "dimension91",
+            "label": "Dimension 91"
+          },
+          {
+            "value": "dimension92",
+            "label": "Dimension 92"
+          },
+          {
+            "value": "dimension93",
+            "label": "Dimension 93"
+          },
+          {
+            "value": "dimension94",
+            "label": "Dimension 94"
+          },
+          {
+            "value": "dimension95",
+            "label": "Dimension 95"
+          },
+          {
+            "value": "dimension96",
+            "label": "Dimension 96"
+          },
+          {
+            "value": "dimension97",
+            "label": "Dimension 97"
+          },
+          {
+            "value": "dimension98",
+            "label": "Dimension 98"
+          },
+          {
+            "value": "dimension99",
+            "label": "Dimension 99"
+          },
+          {
+            "value": "dimension100",
+            "label": "Dimension 100"
+          },
+          {
+            "value": "dimension101",
+            "label": "Dimension 101"
+          },
+          {
+            "value": "dimension102",
+            "label": "Dimension 102"
+          },
+          {
+            "value": "dimension103",
+            "label": "Dimension 103"
+          },
+          {
+            "value": "dimension104",
+            "label": "Dimension 104"
+          },
+          {
+            "value": "dimension105",
+            "label": "Dimension 105"
+          },
+          {
+            "value": "dimension106",
+            "label": "Dimension 106"
+          },
+          {
+            "value": "dimension107",
+            "label": "Dimension 107"
+          },
+          {
+            "value": "dimension108",
+            "label": "Dimension 108"
+          },
+          {
+            "value": "dimension109",
+            "label": "Dimension 109"
+          },
+          {
+            "value": "dimension110",
+            "label": "Dimension 110"
+          },
+          {
+            "value": "dimension111",
+            "label": "Dimension 111"
+          },
+          {
+            "value": "dimension112",
+            "label": "Dimension 112"
+          },
+          {
+            "value": "dimension113",
+            "label": "Dimension 113"
+          },
+          {
+            "value": "dimension114",
+            "label": "Dimension 114"
+          },
+          {
+            "value": "dimension115",
+            "label": "Dimension 115"
+          },
+          {
+            "value": "dimension116",
+            "label": "Dimension 116"
+          },
+          {
+            "value": "dimension117",
+            "label": "Dimension 117"
+          },
+          {
+            "value": "dimension118",
+            "label": "Dimension 118"
+          },
+          {
+            "value": "dimension119",
+            "label": "Dimension 119"
+          },
+          {
+            "value": "dimension120",
+            "label": "Dimension 120"
+          },
+          {
+            "value": "dimension121",
+            "label": "Dimension 121"
+          },
+          {
+            "value": "dimension122",
+            "label": "Dimension 122"
+          },
+          {
+            "value": "dimension123",
+            "label": "Dimension 123"
+          },
+          {
+            "value": "dimension124",
+            "label": "Dimension 124"
+          },
+          {
+            "value": "dimension125",
+            "label": "Dimension 125"
+          },
+          {
+            "value": "dimension126",
+            "label": "Dimension 126"
+          },
+          {
+            "value": "dimension127",
+            "label": "Dimension 127"
+          },
+          {
+            "value": "dimension128",
+            "label": "Dimension 128"
+          },
+          {
+            "value": "dimension129",
+            "label": "Dimension 129"
+          },
+          {
+            "value": "dimension130",
+            "label": "Dimension 130"
+          },
+          {
+            "value": "dimension131",
+            "label": "Dimension 131"
+          },
+          {
+            "value": "dimension132",
+            "label": "Dimension 132"
+          },
+          {
+            "value": "dimension133",
+            "label": "Dimension 133"
+          },
+          {
+            "value": "dimension134",
+            "label": "Dimension 134"
+          },
+          {
+            "value": "dimension135",
+            "label": "Dimension 135"
+          },
+          {
+            "value": "dimension136",
+            "label": "Dimension 136"
+          },
+          {
+            "value": "dimension137",
+            "label": "Dimension 137"
+          },
+          {
+            "value": "dimension138",
+            "label": "Dimension 138"
+          },
+          {
+            "value": "dimension139",
+            "label": "Dimension 139"
+          },
+          {
+            "value": "dimension140",
+            "label": "Dimension 140"
+          },
+          {
+            "value": "dimension141",
+            "label": "Dimension 141"
+          },
+          {
+            "value": "dimension142",
+            "label": "Dimension 142"
+          },
+          {
+            "value": "dimension143",
+            "label": "Dimension 143"
+          },
+          {
+            "value": "dimension144",
+            "label": "Dimension 144"
+          },
+          {
+            "value": "dimension145",
+            "label": "Dimension 145"
+          },
+          {
+            "value": "dimension146",
+            "label": "Dimension 146"
+          },
+          {
+            "value": "dimension147",
+            "label": "Dimension 147"
+          },
+          {
+            "value": "dimension148",
+            "label": "Dimension 148"
+          },
+          {
+            "value": "dimension149",
+            "label": "Dimension 149"
+          },
+          {
+            "value": "dimension150",
+            "label": "Dimension 150"
+          },
+          {
+            "value": "dimension151",
+            "label": "Dimension 151"
+          },
+          {
+            "value": "dimension152",
+            "label": "Dimension 152"
+          },
+          {
+            "value": "dimension153",
+            "label": "Dimension 153"
+          },
+          {
+            "value": "dimension154",
+            "label": "Dimension 154"
+          },
+          {
+            "value": "dimension155",
+            "label": "Dimension 155"
+          },
+          {
+            "value": "dimension156",
+            "label": "Dimension 156"
+          },
+          {
+            "value": "dimension157",
+            "label": "Dimension 157"
+          },
+          {
+            "value": "dimension158",
+            "label": "Dimension 158"
+          },
+          {
+            "value": "dimension159",
+            "label": "Dimension 159"
+          },
+          {
+            "value": "dimension160",
+            "label": "Dimension 160"
+          },
+          {
+            "value": "dimension161",
+            "label": "Dimension 161"
+          },
+          {
+            "value": "dimension162",
+            "label": "Dimension 162"
+          },
+          {
+            "value": "dimension163",
+            "label": "Dimension 163"
+          },
+          {
+            "value": "dimension164",
+            "label": "Dimension 164"
+          },
+          {
+            "value": "dimension165",
+            "label": "Dimension 165"
+          },
+          {
+            "value": "dimension166",
+            "label": "Dimension 166"
+          },
+          {
+            "value": "dimension167",
+            "label": "Dimension 167"
+          },
+          {
+            "value": "dimension168",
+            "label": "Dimension 168"
+          },
+          {
+            "value": "dimension169",
+            "label": "Dimension 169"
+          },
+          {
+            "value": "dimension170",
+            "label": "Dimension 170"
+          },
+          {
+            "value": "dimension171",
+            "label": "Dimension 171"
+          },
+          {
+            "value": "dimension172",
+            "label": "Dimension 172"
+          },
+          {
+            "value": "dimension173",
+            "label": "Dimension 173"
+          },
+          {
+            "value": "dimension174",
+            "label": "Dimension 174"
+          },
+          {
+            "value": "dimension175",
+            "label": "Dimension 175"
+          },
+          {
+            "value": "dimension176",
+            "label": "Dimension 176"
+          },
+          {
+            "value": "dimension177",
+            "label": "Dimension 177"
+          },
+          {
+            "value": "dimension178",
+            "label": "Dimension 178"
+          },
+          {
+            "value": "dimension179",
+            "label": "Dimension 179"
+          },
+          {
+            "value": "dimension180",
+            "label": "Dimension 180"
+          },
+          {
+            "value": "dimension181",
+            "label": "Dimension 181"
+          },
+          {
+            "value": "dimension182",
+            "label": "Dimension 182"
+          },
+          {
+            "value": "dimension183",
+            "label": "Dimension 183"
+          },
+          {
+            "value": "dimension184",
+            "label": "Dimension 184"
+          },
+          {
+            "value": "dimension185",
+            "label": "Dimension 185"
+          },
+          {
+            "value": "dimension186",
+            "label": "Dimension 186"
+          },
+          {
+            "value": "dimension187",
+            "label": "Dimension 187"
+          },
+          {
+            "value": "dimension188",
+            "label": "Dimension 188"
+          },
+          {
+            "value": "dimension189",
+            "label": "Dimension 189"
+          },
+          {
+            "value": "dimension190",
+            "label": "Dimension 190"
+          },
+          {
+            "value": "dimension191",
+            "label": "Dimension 191"
+          },
+          {
+            "value": "dimension192",
+            "label": "Dimension 192"
+          },
+          {
+            "value": "dimension193",
+            "label": "Dimension 193"
+          },
+          {
+            "value": "dimension194",
+            "label": "Dimension 194"
+          },
+          {
+            "value": "dimension195",
+            "label": "Dimension 195"
+          },
+          {
+            "value": "dimension196",
+            "label": "Dimension 196"
+          },
+          {
+            "value": "dimension197",
+            "label": "Dimension 197"
+          },
+          {
+            "value": "dimension198",
+            "label": "Dimension 198"
+          },
+          {
+            "value": "dimension199",
+            "label": "Dimension 199"
+          },
+          {
+            "value": "dimension200",
+            "label": "Dimension 200"
+          }
+        ]
+      }
+    },
+    {
+      "default_value": "",
+      "field_type": "text",
+      "name": "customTrackerName",
+      "label": "Custom Tracker Name (Optional)",
+      "options": null
+    },
+    {
+      "default_value": "",
+      "field_type": "text",
+      "name": "trackingID",
+      "label": "Tracking ID (Optional)",
+      "options": null
+    },
+    {
+      "default_value": "10000",
+      "field_type": "dropdown",
+      "name": "pollingTime",
+      "label": "Polling Time",
+      "options": {
+        "choices": [
+          {
+            "value": "1000",
+            "label": "1 second"
+          },
+          {
+            "value": "2000",
+            "label": "2 seconds"
+          },
+          {
+            "value": "5000",
+            "label": "5 seconds"
+          },
+          {
+            "value": "10000",
+            "label": "10 seconds"
+          },
+          {
+            "value": "20000",
+            "label": "20 seconds"
+          }
+        ]
+      }
+    },
+    {
+      "default_value": "true",
+      "field_type": "dropdown",
+      "name": "debugEvents",
+      "label": "Send debug events",
+      "options": {
+        "choices": [
+          {
+            "value": "false",
+            "label": "False"
+          },
+          {
+            "value": "true",
+            "label": "True"
+          }
+        ]
+      }
+    },
+    {
+      "default_value": "true",
+      "field_type": "dropdown",
+      "name": "logEnabled",
+      "label": "Enable log",
+      "options": {
+        "choices": [
+          {
+            "value": "false",
+            "label": "False"
+          },
+          {
+            "value": "true",
+            "label": "True"
+          }
+        ]
+      }
+    }
+  ],
+  "description": "Custom GA integration featuring: 200 selectable custom dimensions, option to provide custom tracker name, tracking of the time difference between when Optimizely & GA load, customizable polling period, debug events, debug logs.",
+  "options": {
+    "track_layer_decision": "var logEnabled = extension.logEnabled;\nvar debugEvents = extension.debugEvents;\nvar timeoutInterval = 100;\nvar maxWait = extension.pollingTime;\nvar waited = 0;\n\nfunction trackOptlyEvent(name, tags) {\n    try {\n        if (debugEvents) {\n            tags = tags || {};\n            window.optimizely.push({\n                \"type\": \"event\",\n                \"eventName\": name,\n                \"tags\": tags\n            });\n        }\n    } catch (error) {\n        console.log(error);\n    }\n}\n\ntry {\n    (function () {\n        function integrationLog(msg) {\n            if (logEnabled) {\n                console.log(msg);\n            }\n        }\n\n        function waitForGaEventApi(method) {\n            // this function needs to be updated to work with your particular GA implementation\n            if (window.ga && window.ga.getAll) {\n                method();\n            } else {\n                if (waited < maxWait) {\n                    setTimeout(function () {\n                        waited = waited + timeoutInterval;\n                        waitForGaEventApi(method);\n                    }, timeoutInterval);\n                } else {\n                    trackOptlyEvent(\"failed_to_find_ga\");\n                    integrationLog(\"Failed to find the GA object.\");\n                }\n            }\n        }\n\n        var decisionString = optimizely.get('state').getDecisionString({\n            campaignId: campaignId,\n            shouldCleanString: true,\n            maxLength: 255\n        });\n\n        waitForGaEventApi(function () {\n            if (!!decisionString) {\n                integrationLog(\"Preparing to send the decision event to GA.\");\n                // send event to GA\n                // edit the 'fieldObject' properties as needed\n                var fieldsObject = { nonInteraction: true };\n                fieldsObject[extension.customDimension] = decisionString;\n                integrationLog(fieldsObject);\n\n                // check the GA tracking ID associated with every tracker and select a tracker accordingly\n                if (!!extension.trackingID) {\n                    integrationLog(\"Tracking ID is set to: \" + extension.trackingID);\n                    var GAtrackers = window.ga.getAll();\n                    var trackerObjects = [];\n                    for (i = 0; i < GAtrackers.length; i++) {\n                        var trackerObject = {};\n                        trackerObject['trackerName'] = window.ga.getAll()[i].get('name');\n                        trackerObject['trackingID'] = window.ga.getAll()[i].get('trackingId');\n                        trackerObjects.push(trackerObject);\n                    }\n                    var matchingTrackerObjects = trackerObjects.filter(function (trackerObject) {\n                        return trackerObject.trackingID == extension.trackingID;\n                    });\n                    if (matchingTrackerObjects.length == 0) {\n                        integrationLog(\"No tracker with associated to the selected GA Tracking ID found! NOT sending the GA event.\");\n                        return;\n                    } else {\n                        var prefix = extension.customTrackerName || matchingTrackerObjects[0].name;\n                    }\n                } else {\n                  \t// use any available tracker\n                    var prefix = extension.customTrackerName || window.ga.getAll()[0].get('name');\n                }\n                integrationLog(\"Name of the tracker used by the integration: \" + prefix);\n\n                window.ga(prefix + '.set', extension.customDimension, decisionString);\n                trackOptlyEvent(\"set_ga_event\");\n                window.ga(prefix + '.send', \"event\", \"Optimizely\", \"Campaign decided\", fieldsObject);\n                trackOptlyEvent(\"sent_ga_event\", {\n                    value: waited\n                });\n                integrationLog(\"GA event sent. Time waited: \" + waited);\n            }\n        });\n    })();\n} catch (error) {\n    trackOptlyEvent(\"ga_error\", {\n        errormessage: error.message\n    });\n    integrationLog(\"Error encountered when trying to send the GA event: \" + error.message);\n}"
+  }
+}
