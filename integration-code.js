@@ -3,6 +3,7 @@ var debugEvents = extension.debugEvents;
 var timeoutInterval = 100;
 var maxWait = extension.pollingTime;
 var waited = 0;
+var GAvariable = extension.GoogleVariable || window.ga;
 
 function trackOptlyEvent(name, tags) {
     try {
@@ -27,9 +28,8 @@ try {
             }
         }
 
-        function waitForGaEventApi(method) {
-            // this function needs to be updated to work with your particular GA implementation
-            if (window.ga && window.ga.getAll) {
+        function waitForGaEventApi(method) {            
+            if (GoogleVariable && GoogleVariable.getAll) {
                 method();
             } else {
                 if (waited < maxWait) {
@@ -39,7 +39,7 @@ try {
                     }, timeoutInterval);
                 } else {
                     trackOptlyEvent("failed_to_find_ga");
-                    integrationLog("Failed to find the GA object.");
+                    integrationLog("Failed to find the GA object. Google variable used: " + GoogleVariable);
                 }
             }
         }
@@ -62,12 +62,12 @@ try {
                 // check the GA tracking ID associated with every tracker and select a tracker accordingly
                 if (!!extension.trackingID) {
                     integrationLog("Tracking ID is set to: " + extension.trackingID);
-                    var GAtrackers = window.ga.getAll();
+                    var GAtrackers = GoogleVariable.getAll();
                     var trackerObjects = [];
                     for (i = 0; i < GAtrackers.length; i++) {
                         var trackerObject = {};
-                        trackerObject['trackerName'] = window.ga.getAll()[i].get('name');
-                        trackerObject['trackingID'] = window.ga.getAll()[i].get('trackingId');
+                        trackerObject['trackerName'] = GoogleVariable.getAll()[i].get('name');
+                        trackerObject['trackingID'] = GoogleVariable.getAll()[i].get('trackingId');
                         trackerObjects.push(trackerObject);
                     }
                     var matchingTrackerObjects = trackerObjects.filter(function (trackerObject) {
@@ -81,13 +81,13 @@ try {
                     }
                 } else {
                   	// use any available tracker
-                    var prefix = extension.customTrackerName || window.ga.getAll()[0].get('name');
+                    var prefix = extension.customTrackerName || GoogleVariable.getAll()[0].get('name');
                 }
                 integrationLog("Name of the tracker used by the integration: " + prefix);
 
-                window.ga(prefix + '.set', extension.customDimension, decisionString);
+                GoogleVariable(prefix + '.set', extension.customDimension, decisionString);
                 trackOptlyEvent("set_ga_event");
-                window.ga(prefix + '.send', "event", "Optimizely", "Campaign decided", fieldsObject);
+                GoogleVariable(prefix + '.send', "event", "Optimizely", "Campaign decided", fieldsObject);
                 trackOptlyEvent("sent_ga_event", {
                     value: waited
                 });
