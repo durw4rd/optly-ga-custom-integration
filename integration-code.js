@@ -3,7 +3,7 @@ var debugEvents = extension.debugEvents;
 var timeoutInterval = 100;
 var maxWait = extension.pollingTime;
 var waited = 0;
-var GAvariable = extension.GoogleVariable || window.ga;
+var GoogleVariable = extension.GoogleVariable || window.ga;
 
 function trackOptlyEvent(name, tags) {
     try {
